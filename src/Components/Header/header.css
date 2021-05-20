@@ -1,0 +1,73 @@
+.header {
+  max-width: 1170px;
+  margin: 0 auto;
+  height: 90px;
+  justify-content: space-between;
+}
+
+@font-face {
+  font-family: "Futura PT";
+  src: local("FuturaPT"), url(../../Fonts/FuturaPT-Bold.woff) format("woff");
+}
+
+.links-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.section-header {
+  width: 1170px;
+}
+
+.navbar-brand {
+  color: #1c1c1c;
+  font-family: "Futura PT";
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.link-nav-item {
+  list-style-type: none;
+}
+
+.logo-title {
+  margin-left: 19px;
+}
+
+.nav-link {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 30px;
+  text-align: right;
+  text-transform: uppercase;
+  letter-spacing: 0.65px;
+}
+
+.navbar-nav {
+  align-items: center;
+  margin-left: 164px;
+  
+}
+
+.nav-link {
+  margin-top: 15px;
+  margin-right: 26px;
+  margin-bottom: 15px !important;
+}
+
+.navbar-nav {
+  align-items: flex-end;
+}
+
+.navbar-toggler {
+  /* margin-top: 30px; */
+}
