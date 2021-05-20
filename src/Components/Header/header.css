@@ -1,7 +1,6 @@
 .header {
   max-width: 1170px;
   margin: 0 auto;
-  height: 90px;
   justify-content: space-between;
 }
 
@@ -31,6 +30,7 @@
   text-transform: uppercase;
   margin-bottom: 15px;
   margin-top: 15px;
+  margin-right: 0px;
 }
 .link-nav-item {
   list-style-type: none;
@@ -55,19 +55,14 @@
 .navbar-nav {
   align-items: center;
   margin-left: 164px;
-  
 }
 
 .nav-link {
   margin-top: 15px;
-  margin-right: 26px;
+  margin-right: 23px;
   margin-bottom: 15px !important;
 }
 
 .navbar-nav {
   align-items: flex-end;
-}
-
-.navbar-toggler {
-  /* margin-top: 30px; */
 }

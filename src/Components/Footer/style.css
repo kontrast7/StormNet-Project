@@ -1,0 +1,15 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+.fot1 {
+    font-size: 30px;
+}
+
+.fot2 {
+    font-size: 30px;
+}
+
+.fot3 {
+    font-size: 30px;
+}
