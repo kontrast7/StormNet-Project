@@ -4,7 +4,7 @@ import search from "../../Pic/Header/Search_Icon.png";
 import "./header.css";
 
 
-import Content from "../Content/index";
+import Home from "../Home/index";
 import Item from "../Item1/index";
 
 
@@ -94,7 +94,7 @@ class Header extends React.Component {
           </div>
         </nav>
         <Switch>
-          <Route path="/" exact component={Content} />
+          <Route path="/" exact component={Home} />
           <Route path="/item1" component={Item} />
         </Switch>
       </Router>

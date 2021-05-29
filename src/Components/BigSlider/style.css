@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Century Gothic";
+  src: local("GOTHIC"), url(../../Fonts/GOTHIC.TTF) format("ttf");
+}
+
+.carousel-caption {
+  top: 5.25rem !important;
+  bottom: 15.25rem !important;
+}
+
+/* .widd100 {
+  width: 100%;
+} */
+
+.carousel-control-prev-icon {
+  background-image: url("../../Pic/BigSlider/prew.png") !important;
+  background-size: 55px !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("../../Pic/BigSlider/next.png") !important;
+  background-size: 55px !important;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 14px !important;
+  height: 14px !important;
+  border-radius: 50% !important;
+  margin-right: 8px !important;
+}
+
+.carousel-indicators [data-bs-target]:active {
+  width: 16px !important;
+  height: 16px !important;
+}
+
+.card-title-slider {
+  font-family: "Century Gothic";
+  font-size: 55px;
+  line-height: 60px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+.card-subtitle-slider {
+  font-family: "Open Sans", sans-serif;
+  font-size: 27px;
+  line-height: 30px;
+  font-weight: 300;
+  color: #ffffff;
+  margin-top: 27px;
+}

@@ -1,5 +1,6 @@
 .header {
   max-width: 1170px;
+  width: 100%;
   margin: 0 auto;
   justify-content: space-between;
 }
@@ -54,7 +55,8 @@
 
 .navbar-nav {
   align-items: center;
-  margin-left: 164px;
+  margin-left: 136px;
+  flex-wrap: wrap;
 }
 
 .nav-link {

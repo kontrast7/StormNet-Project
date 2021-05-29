@@ -1,0 +1,12 @@
+.button-black {
+  padding: 13px 28px;
+  background-color: #00000083;
+  border-radius: 3px;
+  font-family: "Open Sans";
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #ffffff;
+  outline: none;
+  border: none;
+}
