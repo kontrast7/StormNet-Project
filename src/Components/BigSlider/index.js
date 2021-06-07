@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css";
 
 import ButtonBlack from "../Buttons/ButtonBlack/index";
+import ButtonTransparent from "../Buttons/ButtonTransparent/index";
 
 import Pic1 from "../../Pic/BigSlider/black/1.jpg";
 import Pic4 from "../../Pic/BigSlider/black/bg-gray.jpg";
@@ -48,11 +49,9 @@ class BigSlider extends React.Component {
               <p className="card-subtitle-slider">
                 Creating A Website Has Never Been This Easy
               </p>
-              <div className="d-grid gap-2 d-md-block">
-                <ButtonBlack />
-                <button type="button" className="btn btn-outline-light">
-                  Light
-                </button>
+              <div className="button-block">
+                <ButtonBlack value="Next">fhhgh</ButtonBlack>
+                <ButtonTransparent />
               </div>
             </div>
           </div>

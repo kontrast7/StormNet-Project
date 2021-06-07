@@ -4,13 +4,9 @@
 }
 
 .carousel-caption {
-  top: 5.25rem !important;
-  bottom: 15.25rem !important;
+  /* top: 5.25rem !important; */
+  bottom: 20% !important;
 }
-
-/* .widd100 {
-  width: 100%;
-} */
 
 .carousel-control-prev-icon {
   background-image: url("../../Pic/BigSlider/prew.png") !important;
@@ -50,4 +46,11 @@
   font-weight: 300;
   color: #ffffff;
   margin-top: 27px;
+}
+
+.button-block {
+  margin: 0 auto;
+  width: 420px;
+  display: flex;
+  justify-content: space-between;
 }

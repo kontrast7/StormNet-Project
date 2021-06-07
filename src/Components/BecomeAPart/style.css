@@ -1,0 +1,17 @@
+.become-a-part {
+  background-color: #82b440;
+}
+.become-text {
+  font-family: "Open Sans";
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.become-content {
+  min-height: 180px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
