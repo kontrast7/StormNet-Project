@@ -34,6 +34,7 @@
 .wrapper-great {
   max-width: 560px;
   position: absolute;
+  /* right: 50%; */
   top: 30%;
 }
 
@@ -42,6 +43,7 @@
   background-image: url(../../Pic/Home/GreatTheme/1.png);
   background-repeat: no-repeat;
   background-position: right;
+  /* background-position: left; */
   height: 780px;
 }
 

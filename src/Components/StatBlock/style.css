@@ -1,0 +1,97 @@
+.state-block-bg {
+  background-color: #1f252f;
+  min-height: 280px;
+}
+
+.state-block-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.state-green {
+  width: 17%;
+  border-top: 3px solid #86d375;
+}
+.state-blue {
+  width: 16.6%;
+  border-top: 3px solid #1fc6d5;
+}
+.state-red {
+  width: 16.6%;
+  border-top: 3px solid #f47272;
+}
+.state-salat {
+  width: 16.6%;
+  border-top: 3px solid #aae980;
+}
+.state-fiol {
+  width: 16.6%;
+  border-top: 3px solid #9f7bfb;
+}
+.state-orange {
+  width: 16.6%;
+  border-top: 3px solid #fbb439;
+}
+
+.state-green-int {
+  margin-top: 80px;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 300;
+  color: #9ce08d;
+}
+.state-blue-int {
+
+  margin-top: 80px;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 300;
+  color: #81b0ff;
+}
+.state-red-int {
+  text-align: center;
+  margin-top: 80px;
+  font-family: "Open Sans";
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 300;
+  color: #f47272;
+}
+
+.state-salat-int {
+  text-align: center;
+  margin-top: 80px;
+  font-family: "Open Sans";
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 300;
+  color: #aae980;
+}
+.state-fiol-int {
+  text-align: center;
+  margin-top: 80px;
+  font-family: "Open Sans";
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 300;
+  color: #9f7bfb;
+}
+.state-orange-int {
+  text-align: center;
+  margin-top: 80px;
+  font-family: "Open Sans";
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 300;
+  color: #fbb439;
+}
+
+.state-sub {
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}

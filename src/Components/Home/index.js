@@ -6,6 +6,12 @@ import GreatTeme from "../GreatTheme";
 import SelectedCase from "../SelectedCase";
 import PlateBlock from "../PlateBlock";
 import Become from "../BecomeAPart";
+import MultipleLayouts from "../MultipleLayouts";
+import StatBlock from "../StatBlock";
+import Carousel from "../Carousel";
+import WhatWeDo from "../WhatWeDo";
+import WhatWeDoInfo from "../WhatWeDoInfo";
+import BestPartners from "../TheBestPartners";
 
 class Content extends React.Component {
   render() {
@@ -28,6 +34,26 @@ class Content extends React.Component {
         </div>
         <div className="become-block">
           <Become />
+        </div>
+        <div className="multiple-layouts-block">
+          <MultipleLayouts />
+        </div>
+        <div className="state-color-block">
+          <StatBlock />
+        </div>
+        <div className="carousel">
+          <Carousel />
+        </div>
+        <div className="what-block">
+          <div className="what1">
+            <WhatWeDoInfo />
+          </div>
+          <div className="what2">
+            <WhatWeDo />
+          </div>
+        </div>
+        <div className="best-partners">
+          <BestPartners />
         </div>
       </>
     );

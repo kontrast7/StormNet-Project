@@ -1,0 +1,57 @@
+.WhatWeDo {
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 20px;
+  padding-bottom: 70px;
+  grid-area: WhatWeDo;
+  background-color: #1f252f;
+}
+
+.what-ul {
+  list-style-image: url("../../Pic/Home/WhatWeDo/arr.png");
+  list-style-position: inside;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.what-li {
+  font-family: "Open Sans";
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #cccccc;
+}
+
+.what-title {
+  margin-bottom: 30px;
+  font-family: "Open Sans";
+  font-size: 36px;
+  line-height: 30px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.what-subtitle {
+  max-width: 530px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  font-family: "Open Sans";
+  font-size: 18px;
+  line-height: 36px;
+  font-weight: 300;
+  color: #b9b9b9;
+}
+
+.what-subtitle2 {
+  max-width: 570px;
+  margin-bottom: 30px;
+  font-family: "Open Sans";
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #cccccc;
+}
+
+.what-btn {
+  margin-top: 40px;
+}

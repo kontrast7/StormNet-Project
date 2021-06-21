@@ -1,0 +1,11 @@
+.what-block {
+    display: flex;
+}
+
+.what1 {
+    width: 40%;
+}
+
+.what2 {
+    width: 60%;
+}

@@ -1,0 +1,91 @@
+.WhatWeDo-block {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 15px 15px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "panel1 panel2 panel3"
+    "panel4 panel5 panel6";
+}
+
+
+
+.panel1 {
+  grid-area: panel1;
+}
+
+.panel2 {
+  grid-area: panel2;
+}
+
+.panel3 {
+  grid-area: panel3;
+}
+
+.panel4 {
+  grid-area: panel4;
+}
+
+.panel5 {
+  grid-area: panel5;
+}
+
+.panel6 {
+  grid-area: panel6;
+}
+
+
+
+.what-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.panel1-img {
+  margin-top: 80px;
+  margin-bottom: 50px;
+  width: 64px;
+  height: 64px;
+}
+
+.panel1-title {
+  height: 60px;
+  font-family: "Open Sans";
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #333333;
+}
+
+.panel1-subtitle {
+  max-width: 250px;
+  /* margin-top: 20px; */
+  margin-bottom: 30px;
+  font-family: "Open Sans";
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #575757;
+}
+
+.what-link {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #4285f4;
+  text-decoration: none;
+}
+
+.what-arr {
+  width: 10px;
+  height: 10px;
+  margin-right: 3px;
+}

@@ -13,7 +13,7 @@ class Responsive extends React.Component {
           <div className="wrapper">
             <div className="item1">
               <div className="item1-img">
-                <img className="item1-pic" src={item1} />
+                <img className="item1-pic" src={item1} alt="item1"/>
               </div>
               <div className="item1-title">100% Responsive</div>
               <div className="item1-text">
@@ -24,7 +24,7 @@ class Responsive extends React.Component {
             </div>
             <div className="item2">
               <div className="item2-img">
-                <img className="item1-pic" src={item3} />
+                <img className="item1-pic" src={item2} alt="item2"/>
               </div>
               <div className="item2-title">Powerfull Admin</div>
               <div className="item2-text">
@@ -35,7 +35,7 @@ class Responsive extends React.Component {
             </div>
             <div className="item3">
               <div className="item3-img">
-                <img className="item1-pic" src={item3} />
+                <img className="item1-pic" src={item3} alt="item3"/>
               </div>
               <div className="item3-title">Incredible Design</div>
               <div className="item3-text">
@@ -46,7 +46,7 @@ class Responsive extends React.Component {
             </div>
             <div className="item4">
               <div className="item4-img">
-                <img className="item1-pic" src={item4} />
+                <img className="item1-pic" src={item4} alt="item4"/>
               </div>
               <div className="item4-title">The Best Support</div>
               <div className="item4-text">

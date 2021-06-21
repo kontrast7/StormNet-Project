@@ -1,0 +1,150 @@
+.partners-block-img {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1100px;
+  flex-wrap: wrap;
+}
+
+.best-part {
+  margin: 0 auto;
+  width: 100%;
+  height: 170px;
+  max-width: 1140px;
+  max-height: 170px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "p1 p2 p3 p4"
+    "p5 p6 p7 p8";
+}
+
+.p1 {
+  grid-area: p1;
+  max-width: 290px;
+  max-height: 90px;
+  background-image: url("../../Pic/Home/TheBestPartners/Genuine.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-size: contain; */
+  border-right: 1px solid rgb(190, 190, 190);
+  border-bottom: 1px solid rgb(190, 190, 190);
+}
+
+.p2 {
+  grid-area: p2;
+  max-width: 290px;
+  max-height: 90px;
+  background-image: url("../../Pic/Home/TheBestPartners/HAUS.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  border-right: 1px solid rgb(190, 190, 190);
+  border-bottom: 1px solid rgb(190, 190, 190);
+  /* background-size: contain; */
+}
+
+.p3 {
+  grid-area: p3;
+  max-width: 290px;
+  max-height: 90px;
+  background-image: url("../../Pic/Home/TheBestPartners/Hover_Logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  border-right: 1px solid rgb(190, 190, 190);
+  border-bottom: 1px solid rgb(190, 190, 190);
+  /* background-size: contain; */
+}
+
+.p4 {
+  grid-area: p4;
+  max-width: 290px;
+  max-height: 90px;
+  background-image: url("../../Pic/Home/TheBestPartners/IN_NEW_YORK.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  border-bottom: 1px solid rgb(190, 190, 190);
+  /* background-size: contain; */
+}
+
+.p5 {
+  grid-area: p5;
+  max-width: 290px;
+  max-height: 90px;
+  background-image: url("../../Pic/Home/TheBestPartners/Logo_22.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  border-right: 1px solid rgb(190, 190, 190);
+  /* background-size: contain; */
+}
+
+.p6 {
+  grid-area: p6;
+  max-width: 290px;
+  max-height: 90px;
+  background-image: url("../../Pic/Home/TheBestPartners/Logo_8.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  border-right: 1px solid rgb(190, 190, 190);
+  /* background-size: contain; */
+}
+
+.p7 {
+  grid-area: p7;
+  max-width: 290px;
+  max-height: 90px;
+  background-image: url("../../Pic/Home/TheBestPartners/LONG_ISLAND_MEN’S_DIVISION.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  border-right: 1px solid rgb(190, 190, 190);
+  /* background-size: contain; */
+}
+
+.p8 {
+  grid-area: p8;
+  max-width: 290px;
+  max-height: 90px;
+  background-image: url("../../Pic/Home/TheBestPartners/STATON.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-size: contain; */
+}
+
+.partners-title {
+  text-align: center;
+  padding-top: 100px;
+  margin-bottom: 30px;
+  font-family: "Open Sans";
+  font-size: 36px;
+  line-height: 30px;
+  font-weight: 300;
+  color: #333333;
+}
+
+.partners-subtitle {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 70px;
+  font-family: "Open Sans";
+  font-size: 18px;
+  line-height: 36px;
+  font-weight: 300;
+  color: #999999;
+}
+
+.partners-line {
+  display: flex;
+  justify-content: center;
+}
+
+.partners-bg {
+  background-image: url("../../Pic/Home/TheBestPartners/bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.partners-padd {
+  padding-bottom: 800px;
+}
