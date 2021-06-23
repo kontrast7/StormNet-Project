@@ -6,29 +6,30 @@
 .state-block-content {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 .state-green {
-  width: 17%;
+  width: 303px;
   border-top: 3px solid #86d375;
 }
 .state-blue {
-  width: 16.6%;
+  width: 320px;
   border-top: 3px solid #1fc6d5;
 }
 .state-red {
-  width: 16.6%;
+  width: 320px;
   border-top: 3px solid #f47272;
 }
 .state-salat {
-  width: 16.6%;
+  width: 320px;
   border-top: 3px solid #aae980;
 }
 .state-fiol {
-  width: 16.6%;
+  width: 320px;
   border-top: 3px solid #9f7bfb;
 }
 .state-orange {
-  width: 16.6%;
+  width: 320px;
   border-top: 3px solid #fbb439;
 }
 
@@ -94,4 +95,6 @@
   font-size: 14px;
   letter-spacing: 0.05em;
   color: #ffffff;
+  margin-bottom: 40px;
 }
+

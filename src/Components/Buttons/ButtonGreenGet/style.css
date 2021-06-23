@@ -1,0 +1,18 @@
+.button-green-get {
+  max-width: 220px;
+  background-color: #82b440;
+  border: 1px solid #75a931;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+
+  padding: 13px 26px;
+  font-family: "Open Sans";
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #ffffff;
+  outline: none;
+  background-repeat: no-repeat;
+  background-position: 67px center;
+  text-transform: uppercase;
+}

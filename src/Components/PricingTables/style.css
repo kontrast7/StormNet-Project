@@ -1,0 +1,122 @@
+.pricing-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.price-module {
+  max-width: 390px;
+  max-height: 820px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 160px;
+}
+
+.price-module-title {
+  padding-top: 75px;
+  margin-bottom: 30px;
+  font-family: "Open Sans";
+  font-size: 33px;
+  line-height: 30px;
+  font-weight: 300;
+  color: #333333;
+}
+.price-line {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  width: 70px;
+}
+
+.price-module-subtitle {
+  margin-top: 30px;
+  margin-bottom: 70px;
+  font-family: "Open Sans";
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 300;
+  color: #999999;
+}
+.price-module-money {
+  font-family: "Open Sans";
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 600;
+  color: #4285f4;
+}
+
+.price-module-item {
+  border-right: 1px solid #eaeaea;
+  border-left: 1px solid #eaeaea;
+}
+
+.price-module-item-title {
+  padding-top: 40px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans";
+  font-weight: 600;
+  color: #333333;
+}
+
+.price-module-item-img {
+  margin-right: 10px;
+}
+
+.price-module-item-subtitle {
+  width: 386px;
+  font-family: "Open Sans";
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #999999;
+  margin-bottom: 30px;
+}
+.grey-line {
+  margin: 0 auto;
+  width: 290px;
+  height: 1px;
+  background-color: #eaeaea;
+}
+
+.price-btn-block {
+  padding: 40px 101px;
+  border: 1px solid #eaeaea;
+}
+
+.price-module:hover {
+  border-top: 5px solid #4285f4;
+  border-image: linear-gradient(90deg, #00f0ff -24%, #ebacfd 125%);
+  border-radius: 3px 3px 0px 0px;
+  border-image-slice: 1;
+}
+
+.prise-module-head {
+  position: relative;
+}
+
+.recomendet-line {
+  position: absolute;
+  left: -91px;
+  width: 133px;
+  height: 134px;
+  background-image: url("../../Pic/Home/Pricing/rectangle.png");
+}
+
+.recomendet-text {
+  position: absolute;
+  transform: rotate(-45deg);
+  left: -78px;
+  top: 35px;
+  font-family: "Open Sans";
+  font-size: 12px;
+  line-height: 36px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #ffffff;
+  z-index: 10;
+}

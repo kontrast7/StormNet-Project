@@ -8,8 +8,8 @@ class GreatTeme extends React.Component {
   render() {
     return (
       <>
-        <div className="conatainer-fluid bgc-gray">
-          <div className="container bg-great">
+        <div className="conatainer-fluid">
+          <div className="container">
             <div className="wrapper-great">
               <div className="title-great">Great Theme for Your Business</div>
               <Line />
@@ -26,7 +26,6 @@ class GreatTeme extends React.Component {
               <ButtonBlue />
             </div>
           </div>
-          <div className="rectangle-great"></div>
         </div>
       </>
     );

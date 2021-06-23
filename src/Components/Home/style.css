@@ -1,11 +1,52 @@
 .what-block {
-    display: flex;
+  display: flex;
+  flex-wrap: wrap;
+  /* width: 100%; */
 }
 
 .what1 {
-    width: 40%;
+  width: 40%;
 }
 
 .what2 {
-    width: 60%;
+  width: 60%;
+}
+
+/* медиа запрос после 1024
+.what1 {
+    width: 100%;
+}
+
+.what2 {
+    width: 100%;
+} */
+
+.great-theme {
+  position: relative;
+  background-color: #d0dce8;
+  background-image: url(../../Pic/Home/GreatTheme/1.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  /* background-position: left; */
+  height: 780px;
+}
+
+.become-block {
+  background-color: #82b440;
+}
+
+.great-theme2 {
+  position: relative;
+  background-color: #d0dce8;
+  background-image: url(../../Pic/Home/GreatTheme/2.png);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  min-height: 780px;
+  background-size: 780px;
+}
+
+.great-theme2-text {
+  display: flex;
+  justify-content: space-around;
+  min-height: 780px;
 }

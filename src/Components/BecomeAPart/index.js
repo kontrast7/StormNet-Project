@@ -6,7 +6,6 @@ class BecomeAPart extends React.Component {
   render() {
     return (
       <>
-        <div className="become-a-part">
           <div className="container">
             <div className="become-content">
               <div className="become-text">
@@ -15,7 +14,6 @@ class BecomeAPart extends React.Component {
               <Button />
             </div>
           </div>
-        </div>
       </>
     );
   }

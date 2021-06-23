@@ -1,20 +1,18 @@
-.button-blue {
-  max-width: 270px;
-  width: 100%;
+.button-blue-get {
+  max-width: 220px;
   background-color: #4285f4;
   border: 1px solid #2c6cd6;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
   border-radius: 3px;
 
-  padding: 13px 28px;
+  padding: 13px 26px;
   font-family: "Open Sans";
   font-size: 14px;
   line-height: 30px;
   font-weight: 700;
   color: #ffffff;
   outline: none;
-}
-
-.lamp {
-  margin-right: 10px;
+  background-repeat: no-repeat;
+  background-position: 67px center;
+  text-transform: uppercase;
 }

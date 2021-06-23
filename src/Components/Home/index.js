@@ -12,6 +12,8 @@ import Carousel from "../Carousel";
 import WhatWeDo from "../WhatWeDo";
 import WhatWeDoInfo from "../WhatWeDoInfo";
 import BestPartners from "../TheBestPartners";
+import Rectangle from "../Rectangle";
+import PricingTables from "../PricingTables";
 
 class Content extends React.Component {
   render() {
@@ -25,6 +27,7 @@ class Content extends React.Component {
         </div>
         <div className="great-theme">
           <GreatTeme />
+          <Rectangle />
         </div>
         <div className="sel-case">
           <SelectedCase />
@@ -37,6 +40,11 @@ class Content extends React.Component {
         </div>
         <div className="multiple-layouts-block">
           <MultipleLayouts />
+        </div>
+        <div className="great-theme2">
+          <div className="great-theme2-text">
+            <GreatTeme />
+          </div>
         </div>
         <div className="state-color-block">
           <StatBlock />
@@ -54,6 +62,9 @@ class Content extends React.Component {
         </div>
         <div className="best-partners">
           <BestPartners />
+        </div>
+        <div className="pricing-block">
+          <PricingTables />
         </div>
       </>
     );
