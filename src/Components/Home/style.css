@@ -12,14 +12,8 @@
   width: 60%;
 }
 
-/* медиа запрос после 1024
-.what1 {
-    width: 100%;
-}
 
-.what2 {
-    width: 100%;
-} */
+
 
 .great-theme {
   position: relative;
@@ -27,7 +21,6 @@
   background-image: url(../../Pic/Home/GreatTheme/1.png);
   background-repeat: no-repeat;
   background-position: right;
-  /* background-position: left; */
   height: 780px;
 }
 
@@ -51,11 +44,9 @@
   min-height: 780px;
 }
 
-
 .why-choose-block {
   display: flex;
   flex-wrap: wrap;
-  /* width: 100%; */
 }
 
 .why1 {
@@ -64,4 +55,24 @@
 
 .why2 {
   width: 40%;
+  background-color: #1f252f;
+}
+
+
+@media (max-width: 1024px) {
+  .what1 {
+    width: 100%;
+  }
+
+  .what2 {
+    width: 100%;
+  }
+
+  .why1 {
+    width: 100%;
+  }
+  
+  .why2 {
+    width: 100%;
+  }
 }
