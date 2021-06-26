@@ -12,26 +12,6 @@ class PricingTables extends React.Component {
       <>
         <div className="partners-title">Pricing Tables</div>
 
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/K1VZo3xfDTM"
-          title="32423423"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-
-        <video
-          controls
-          width="710"
-          height="538"
-          poster="/examples/media/martynko.png"
-          preload="none"
-        >
-          <source src="https://youtu.be/sO8V7RAvzT8" />
-        </video>
-
         <div className="partners-line">
           <Line />
         </div>

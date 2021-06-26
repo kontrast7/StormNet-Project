@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "Century Gothic";
+  src: local("GOTHIC"), url(../../Fonts/GOTHIC.TTF) format("ttf");
+}
+
+.carousel-caption {
+  bottom: 40% !important;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("../../Pic/BigSlider/prew.png") !important;
+  background-size: 55px !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("../../Pic/BigSlider/next.png") !important;
+  background-size: 55px !important;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 14px !important;
+  height: 14px !important;
+  border-radius: 50% !important;
+  margin-right: 8px !important;
+}
+
+.carousel-indicators [data-bs-target]:active {
+  width: 16px !important;
+  height: 16px !important;
+}
+
+.card-title-slider2 {
+  font-family: "Open Sans";
+  font-size: 30px;
+  line-height: 50px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.card-subtitle-slider2 {
+  font-family: "Open Sans";
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+.line-block {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.button-block {
+  margin: 0 auto;
+  width: 420px;
+  display: flex;
+  justify-content: space-between;
+}

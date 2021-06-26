@@ -1,15 +1,83 @@
-nav {
-    display: flex;
-    justify-content: space-around;
-}
-.fot1 {
-    font-size: 30px;
+.footer-bg1 {
+  background-color: #242427;
 }
 
-.fot2 {
-    font-size: 30px;
+.footer-logo-title {
+  font-family: "Futura PT";
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
-.fot3 {
-    font-size: 30px;
+.footer-logo-subtitle {
+  opacity: 0.5;
+  font-family: "Century Gothic";
+  font-size: 11px;
+  line-height: 18px;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+}
+
+.footer-title {
+  margin-bottom: 20px;
+  font-family: "Open Sans";
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.footer-item {
+  font-family: "Open Sans";
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #999999;
+}
+
+.footer-wrapper {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.footer-card {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.footer-line-wrapper {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #1a1a1d;
+}
+
+.footer-line-text {
+  font-family: "Open Sans";
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #666666;
+}
+.icon-foot {
+  margin-left: 17px;
+  margin-right: 17px;
 }

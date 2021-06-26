@@ -50,3 +50,18 @@
   justify-content: space-around;
   min-height: 780px;
 }
+
+
+.why-choose-block {
+  display: flex;
+  flex-wrap: wrap;
+  /* width: 100%; */
+}
+
+.why1 {
+  width: 60%;
+}
+
+.why2 {
+  width: 40%;
+}

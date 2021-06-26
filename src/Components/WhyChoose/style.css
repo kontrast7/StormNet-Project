@@ -1,0 +1,62 @@
+.why-choose-container {
+  margin: 100px;
+}
+
+.why-choose-title {
+  font-family: "Open Sans";
+  font-size: 36px;
+  line-height: 30px;
+  font-weight: 300;
+  color: #333333;
+}
+
+.why-choose-line {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.why-choose-subtitle {
+  font-family: "Open Sans";
+  font-size: 18px;
+  line-height: 36px;
+  font-weight: 300;
+  color: #999999;
+}
+
+.why-choose-cards-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.why-choose-card {
+  max-width: 290px;
+  width: 100%;
+  margin-top: 70px;
+}
+
+.why-choose-card-title {
+  margin-top: 30px;
+  margin-bottom: 25px;
+  font-family: "Open Sans";
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #333333;
+}
+
+.why-choose-card-subtitle {
+  font-family: "Open Sans";
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #575757;
+}
+
+.why-choose-link {
+  margin-top: 60px;
+  color: #4285f4;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 600;
+}

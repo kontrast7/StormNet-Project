@@ -9,11 +9,16 @@ import Become from "../BecomeAPart";
 import MultipleLayouts from "../MultipleLayouts";
 import StatBlock from "../StatBlock";
 import Carousel from "../Carousel";
+import Carousel2 from "../Carousel2";
 import WhatWeDo from "../WhatWeDo";
 import WhatWeDoInfo from "../WhatWeDoInfo";
 import BestPartners from "../TheBestPartners";
 import Rectangle from "../Rectangle";
 import PricingTables from "../PricingTables";
+import WhyChoose from "../WhyChoose";
+import IncredibleSkills from "../IncredibleSkills";
+import LastestFromOurBlog from "../LastestFromOurBlog";
+import Footer from "../Footer";
 
 class Content extends React.Component {
   render() {
@@ -66,6 +71,36 @@ class Content extends React.Component {
         <div className="pricing-block">
           <PricingTables />
         </div>
+        <div className="video1">
+          <div className="container-fluid11">
+            <iframe
+              width="100%"
+              height="800"
+              src="https://www.youtube.com/embed/l6W1Xx24698?controls=0"
+              title="Bussines-Video"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <div className="become-block">
+          <Become />
+        </div>
+        <div className="why-choose-block">
+          <div className="why1">
+            <WhyChoose />
+          </div>
+          <div className="why2">
+            <IncredibleSkills />
+          </div>
+        </div>
+        <Carousel2 />
+        <LastestFromOurBlog />
+        <div className="become-block">
+          <Become />
+        </div>
+        <Footer/>
       </>
     );
   }
