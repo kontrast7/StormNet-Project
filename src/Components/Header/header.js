@@ -1,6 +1,5 @@
 import React from "react";
 import logo from "../../Pic/Header/Group_6.png";
-import search from "../../Pic/Header/Search_Icon.png";
 import "./header.css";
 
 
@@ -33,7 +32,7 @@ class Header extends React.Component {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span className="navbar-toggler-icon"></span>
+              <span className="navbar-toggler-icon"/>
             </button>
             <div
               className="collapse navbar-collapse"
@@ -42,53 +41,53 @@ class Header extends React.Component {
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <Link to="/">
                   <li className="nav-item">
-                    <span className="nav-link">
-                      home
-                    </span>
+                    {/*<span className="nav-link">*/}
+                    {/*  home*/}
+                    {/*</span>*/}
                   </li>
                 </Link>
-                <Link to="/item1">
-                  <li className="nav-item">
-                    <span className="nav-link">
-                      demos
-                    </span>
-                  </li>
-                </Link>
-                <li className="nav-item">
-                  <span className="nav-link">
-                    features
-                  </span>
-                </li>
+                {/*<Link to="/item1">*/}
+                {/*  <li className="nav-item">*/}
+                {/*    <span className="nav-link">*/}
+                {/*      demos*/}
+                {/*    </span>*/}
+                {/*  </li>*/}
+                {/*</Link>*/}
+                {/*<li className="nav-item">*/}
+                {/*  <span className="nav-link">*/}
+                {/*    features*/}
+                {/*  </span>*/}
+                {/*</li>*/}
 
-                <li className="nav-item">
-                  <span className="nav-link">
-                    shortcodes
-                  </span>
-                </li>
+                {/*<li className="nav-item">*/}
+                {/*  <span className="nav-link">*/}
+                {/*    shortcodes*/}
+                {/*  </span>*/}
+                {/*</li>*/}
 
-                <li className="nav-item">
-                  <span className="nav-link">
-                    shop
-                  </span>
-                </li>
+                {/*<li className="nav-item">*/}
+                {/*  <span className="nav-link">*/}
+                {/*    shop*/}
+                {/*  </span>*/}
+                {/*</li>*/}
 
-                <li className="nav-item">
-                  <span className="nav-link">
-                    blog
-                  </span>
-                </li>
+                {/*<li className="nav-item">*/}
+                {/*  <span className="nav-link">*/}
+                {/*    blog*/}
+                {/*  </span>*/}
+                {/*</li>*/}
 
-                <li className="nav-item">
-                  <span className="nav-link">
-                    portfolio
-                  </span>
-                </li>
+                {/*<li className="nav-item">*/}
+                {/*  <span className="nav-link">*/}
+                {/*    portfolio*/}
+                {/*  </span>*/}
+                {/*</li>*/}
 
-                <li className="nav-item">
-                  <span className="nav-link header-search">
-                    <img src={search} className="header-search-img" alt="search"></img>
-                  </span>
-                </li>
+                {/*<li className="nav-item">*/}
+                {/*  <span className="nav-link header-search">*/}
+                {/*    <img src={search} className="header-search-img" alt="search"></img>*/}
+                {/*  </span>*/}
+                {/*</li>*/}
               </ul>
             </div>
           </div>
