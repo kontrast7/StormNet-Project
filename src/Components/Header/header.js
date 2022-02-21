@@ -1,9 +1,7 @@
 import React from "react";
 import logo from "../../Pic/Header/Group_6.png";
 import "./header.css";
-import Home from "../Home/index";
 
-import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 class Header extends React.Component {
   showSettings(event) {
@@ -12,7 +10,6 @@ class Header extends React.Component {
 
   render() {
     return (
-      <Router>
         <nav className="navbar header navbar-expand-lg navbar-light">
           <div className="container-fluid">
             <a className="navbar-brand" href="#">
@@ -35,21 +32,12 @@ class Header extends React.Component {
               id="navbarSupportedContent"
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                <Link to="/">
-                  <li className="nav-item">
-                    <span className="nav-link">
-                      home
-                    </span>
-                  </li>
-                </Link>
               </ul>
             </div>
           </div>
         </nav>
-        <Switch>
-          <Route path="/" exact component={Home} />
-        </Switch>
-      </Router>
+
+
     );
   }
 }
